@@ -12,8 +12,8 @@ function App() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="#home">메인</Nav.Link>
-          <Nav.Link href="#link">마이페이지</Nav.Link>
+          <Nav.Link href="/">메인</Nav.Link>
+          <Nav.Link href="/mypage">마이페이지</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
